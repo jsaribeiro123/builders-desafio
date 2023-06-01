@@ -96,13 +96,24 @@
 
     A solução adotada contemplou a experiencia do autor, escolheu-se o Glue pois o mesmo 
     tem uma caracteristica que permite executar uma varredura no S3 identificando o modelo de dados 
-    dos arquivos e buckets
+    dos arquivos e buckets.
+    
     O Athenas em conjunto com o Glue permite a criação de um catalago que pode ser consultado
     utilizando o painel do mesmo.
+    
     O airflow foi escolhido por uma questão de alinhamento com a expertise solicitada pela oportunidade.
     Permite a construção de um pipeline utilizando todo um conjunto de caracteristicas, desenvolvido em python,
     um conjunto infinito de libs pode ser utilizadas, acesso ao S3, SFTP , personalização de acessos com o RBAC, 
     extensão usando o Flask.
+    
+    Segurança, adotou-se o Cognito para o controle de acesso e permissões dos usuarios aos serviços da AWS.
+    
+    IAM para as permissões dos recursos da AWS.
+    
+    CloudWatch para acompanhento dos logs gerados pelos recursos utilizados na solução.
+    
+    Alguns outros serviços foram cogitados a fazer parte da solução, mas um aprofudamento nos requisitos seria necessário.
+    
     
  
  
