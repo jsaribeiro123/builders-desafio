@@ -102,7 +102,7 @@
     O airflow foi escolhido por uma questão de alinhamento com a expertise solicitada pela oportunidade.
     Permite a construção de um pipeline utilizando todo um conjunto de caracteristicas, desenvolvido em python,
     um conjunto infinito de libs pode ser utilizadas, acesso ao S3, SFTP , personalização de acessos com o RBAC, 
-    utilizando de extensão usando o Flask.
+    extensão usando o Flask.
     
  
  
